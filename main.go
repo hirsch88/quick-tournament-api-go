@@ -1,15 +1,17 @@
 package main
 
 import (
-	"net/http"
-
-	"github.com/labstack/echo"
+	"github.com/joho/godotenv"
+	"github.com/sirupsen/logrus"
+	"w3tec.ch/go-heroku/app"
 )
 
 func main() {
-	e := echo.New()
-	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World!")
-	})
-	e.Logger.Fatal(e.Start(":1323"))
+	// Loads the env variables
+	err := godotenv.Load()
+	if err != nil {
+		logrus.Fatal("Error loading .env file")
+	}
+
+	app.Bootstrap()
 }
