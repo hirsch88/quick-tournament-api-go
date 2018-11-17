@@ -2,8 +2,8 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/hirsch88/quick-tournament-api-go/app/api"
 	"github.com/sirupsen/logrus"
-	"w3tec.ch/go-heroku/app/api"
 )
 
 func InitializeRoutes(router *gin.Engine) {

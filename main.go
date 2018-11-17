@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/hirsch88/quick-tournament-api-go/app"
 	"github.com/joho/godotenv"
 	"github.com/sirupsen/logrus"
-	"w3tec.ch/go-heroku/app"
 )
 
 func main() {
