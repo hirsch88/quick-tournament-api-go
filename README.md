@@ -1,1 +1,1 @@
-# GO-HEROKU
+# quick-tournament-api-go

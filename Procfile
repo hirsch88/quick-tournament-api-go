@@ -1,1 +1,1 @@
-web: go-heroku
+web: quick-tournament-api-go
