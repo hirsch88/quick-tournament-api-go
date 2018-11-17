@@ -1,6 +1,8 @@
 package app
 
 import (
+	"os"
+
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )
@@ -17,6 +19,11 @@ func Bootstrap() {
 
 	gin.Logger()
 
-	logrus.Info("Server is listening on http://localhost:8080")
-	router.Run(":8080")
+	port := os.Getenv("PORT")
+	if port == "" {
+		logrus.Fatal("$PORT must be set")
+	}
+
+	logrus.Info("Server is listening on http://localhost:" + port)
+	router.Run(":" + port)
 }

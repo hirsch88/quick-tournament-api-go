@@ -53,6 +53,24 @@
 			"revisionTime": "2018-11-15T01:05:34Z"
 		},
 		{
+			"checksumSHA1": "qHpoguf0n1mueKbYN5/Cr10461M=",
+			"path": "github.com/heroku/x/hmetrics",
+			"revision": "85e5aa5e6aa19919252eec6561dcafafba3be425",
+			"revisionTime": "2018-11-02T21:51:00Z"
+		},
+		{
+			"checksumSHA1": "2eVQMk8j6gpl/qT6OpZmBJjsw2s=",
+			"path": "github.com/heroku/x/hmetrics/onload",
+			"revision": "85e5aa5e6aa19919252eec6561dcafafba3be425",
+			"revisionTime": "2018-11-02T21:51:00Z"
+		},
+		{
+			"checksumSHA1": "o0+6uQDysjh6+RsudtQDW3AOwec=",
+			"path": "github.com/joho/godotenv",
+			"revision": "1709ab122c988931ad53508747b3c061400c2984",
+			"revisionTime": "2018-04-05T05:36:34Z"
+		},
+		{
 			"checksumSHA1": "2yHsOHB95SPL7kfDi21cDpq6Sxg=",
 			"path": "github.com/json-iterator/go",
 			"revision": "d05f387f50c0c406889b62cb5ec51c76a64d89ee",
@@ -83,6 +101,12 @@
 			"revisionTime": "2016-01-10T10:55:54Z"
 		},
 		{
+			"checksumSHA1": "tICW9WtACqNYYw14mOulb1GJaSs=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "3791101e143bf0f32515ac23e831475684f61229",
+			"revisionTime": "2018-09-04T20:21:35Z"
+		},
+		{
 			"checksumSHA1": "v3LEmqP4Cb6qGCIP7mJk7l2ZXw8=",
 			"path": "github.com/stretchr/testify/assert",
 			"revision": "8019298d9fa5a04fc2ad10ae03349df3483096a6",
@@ -95,10 +119,22 @@
 			"revisionTime": "2018-11-16T19:29:19Z"
 		},
 		{
+			"checksumSHA1": "BGm8lKZmvJbf/YOJLeL1rw2WVjA=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "3d3f9f413869b949e48070b5bc593aa22cc2b8f2",
+			"revisionTime": "2018-11-10T06:03:37Z"
+		},
+		{
 			"checksumSHA1": "4WnoGCBbjtnn6slc5jz0UHOxulQ=",
 			"path": "golang.org/x/sys/unix",
 			"revision": "93218def8b18e66adbdab3eca8ec334700329f1f",
 			"revisionTime": "2018-11-16T16:03:55Z"
+		},
+		{
+			"checksumSHA1": "DssjltU28TeBlMe16egT15lW0VA=",
+			"path": "golang.org/x/sys/windows",
+			"revision": "8cf3aee429924738c56c34bb819c4ea8273fc434",
+			"revisionTime": "2018-09-06T12:36:02Z"
 		},
 		{
 			"checksumSHA1": "P/k5ZGf0lEBgpKgkwy++F7K1PSg=",

@@ -4,6 +4,8 @@ import (
 	"github.com/hirsch88/quick-tournament-api-go/app"
 	"github.com/joho/godotenv"
 	"github.com/sirupsen/logrus"
+
+	_ "github.com/heroku/x/hmetrics/onload"
 )
 
 func main() {
