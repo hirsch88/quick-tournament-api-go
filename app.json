@@ -1,9 +1,0 @@
-{
-  "name": "quick-tournament-api-go",
-  "description": "REST-API for QuickTournament written in GO",
-  "keywords": [
-    "go"
-  ],
-  "website": "https://github.com/hirsch88/quick-tournament-api-go",
-  "repository": "https://github.com/hirsch88/quick-tournament-api-go"
-}
