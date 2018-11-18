@@ -1,4 +1,4 @@
-package api
+package controllers
 
 import (
 	"encoding/json"
@@ -16,7 +16,8 @@ func TestPongHandler(t *testing.T) {
 	w := httptest.NewRecorder()
 
 	// Get a new router
-	router := gin.Default()
+	gin.SetMode(gin.ReleaseMode)
+	router := gin.New()
 
 	// Define the route similar to its definition in the routes file
 	router.GET("/ping", PongHandler)
