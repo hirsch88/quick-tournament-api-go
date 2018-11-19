@@ -23,5 +23,6 @@ type userController struct {
 
 // GetAll ...
 func (c *userController) GetAll(ctx *gin.Context) {
-	ctx.JSON(200, c.service.GetAll())
+	a := c.service.GetAll()
+	ctx.JSON(200, a)
 }

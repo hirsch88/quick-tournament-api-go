@@ -24,6 +24,7 @@ debug
 tmp/*
 gorm.db
 coverage.txt
+debug.test
 
 # Logs #
 *.log
