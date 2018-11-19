@@ -10,6 +10,7 @@ import (
 	"github.com/hirsch88/quick-tournament-api-go/app/api/middlewares"
 	"github.com/hirsch88/quick-tournament-api-go/app/lib"
 	"github.com/sirupsen/logrus"
+	"github.com/thinkerou/favicon"
 )
 
 func Bootstrap() {
@@ -33,7 +34,8 @@ func Bootstrap() {
 	router.Use(gzip.Gzip(gzip.DefaultCompression))
 	router.Use(helmet.Default())
 	router.Use(helmet.NoCache())
-	router.Use(static.Serve("/", static.LocalFile("/static", false)))
+	router.Use(favicon.New("./static/favicon.ico"))
+	router.Use(static.Serve("/", static.LocalFile("./static", false)))
 
 	// Defines the api endpoints and constructs the manuel ioc
 	InitializeRoutes(router)
